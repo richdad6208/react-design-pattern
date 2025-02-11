@@ -1,4 +1,3 @@
-import DogImagesHover from "@/components/molecules/dog-images-hover";
 import { CodeSnippet } from "@/components/provider/code-snippet";
 import { layout } from "@/styles/layout";
 
@@ -76,7 +75,7 @@ export default function Page() {
               🐕
             </span>
           </h4>
-          <DogImagesHover />
+          {/* <DogImagesHover /> */}
         </div>
       </section>
     </main>

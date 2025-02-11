@@ -18,7 +18,7 @@ export default function useHover() {
         node.removeEventListener("mouseout", handleMouseOut);
       };
     }
-  }, [ref.current]);
+  }, []);
 
   return [ref, hovering];
 }
